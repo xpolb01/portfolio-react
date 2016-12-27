@@ -1,0 +1,26 @@
+$primary-color: #fdb608;
+$default-color: #4d4d4e;
+$dark-theme: #181818;
+$logo-background: #070707;
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    background: tomato;
+    overflow: hidden;
+    display: block;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: $default-color;
+}
+
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}

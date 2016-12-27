@@ -1,16 +1,7 @@
-body {
-    background: tomato;
-    overflow: hidden;
-    display: block;
-}
+@import 'normalize.css';
+@import 'general';
+@import "font-awesome/scss/font-awesome";
+@import 'navigation';
 
-#navigation {
-    background: #444;
-    width: 60px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 3;
-    min-height: 500px;
-}
+
+
